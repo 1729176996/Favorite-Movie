@@ -11,6 +11,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index:30;
 }
 /* 可滑动内容 */
 .content{
@@ -24,4 +25,31 @@
     width: 0;
     height: 0;
 }
-
+.hang{
+    width: 100%;
+    height: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    text-align:center;
+}
+.h1{
+    font-size: 10em;
+}
+.h2{
+    font-size: 8em;
+}
+.h3{
+    font-size: 6em;
+}
+.h4{
+    font-size: 4em;
+}
+.h5{
+    font-size: 2em;
+}
